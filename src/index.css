@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: grid;
+  justify-content: center; /* হরিজন্টাল কেন্দ্রকরণ */
+  align-items: center; /* ভার্টিক্যাল কেন্দ্রকরণ */
+}
